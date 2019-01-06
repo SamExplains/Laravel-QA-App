@@ -28,4 +28,26 @@
     height: 60px;
   }
 
+  .status{
+
+    &.unanswered { //.status .unanswered
+      border: none;
+    }
+
+    &.answered {
+      border: 1px solid $color-green;
+      color: $color-green;
+    }
+
+    &.answer-accepted {
+      background: $color-green;
+      color: $color-white;
+    }
+
+  }
+
+  .view {
+    margin-top: 10px;
+  }
+
 }
