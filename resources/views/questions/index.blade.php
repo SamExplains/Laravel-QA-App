@@ -39,6 +39,11 @@
                                       <div class="ml-auto">
                                           <a href="{{ route('questions.edit', $question->id) }}" class="btn btn-sm btn-success">Edit</a>
                                       </div>
+                                        <form action="{{route('questions.destroy', $question->id)}}" method="post">
+                                            @method('DELETE')
+                                            @csrf {{--  Blade directive token--}}
+                                            <button type="submit" class="btn btn-danger btn-sm ml-1" onclick="return confirm('Are you sure?')">X</button>
+                                        </form>
 
                                     </div>
                                     <p class="lead">
