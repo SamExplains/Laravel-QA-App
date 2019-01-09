@@ -67,9 +67,8 @@ class QuestionsController extends Controller
      * @param  \App\Question  $question
      * @return \Illuminate\Http\Response
      */
-    public function edit(Question $question)
-    {
-        //
+    public function edit(Question $question) {
+        return view('questions.edit', compact('question'));
     }
 
     /**
