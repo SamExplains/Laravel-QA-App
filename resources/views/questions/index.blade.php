@@ -37,17 +37,17 @@
                                             <a href="{{ $question->url }}">{{$question->title}}</a>
                                         </h3>
                                       <div class="ml-auto">
-                                          @if (Auth::user()->can('update-question', $question))
+                                          @can ('update', $question)
                                             <a href="{{ route('questions.edit', $question->id) }}" class="btn btn-sm btn-success">Edit</a>
-                                          @endif
+                                          @endcan
                                       </div>
-                                        @if (Auth::user()->can('delete-question', $question))
+                                        @can ('delete', $question)
                                           <form action="{{route('questions.destroy', $question->id)}}" method="post">
                                               @method('DELETE')
                                               @csrf {{--  Blade directive token--}}
                                               <button type="submit" class="btn btn-danger btn-sm ml-1" onclick="return confirm('Are you sure?')">X</button>
                                           </form>
-                                        @endif
+                                        @endcan
 
                                     </div>
                                     <p class="lead">
