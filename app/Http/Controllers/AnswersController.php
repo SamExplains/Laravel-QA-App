@@ -27,27 +27,41 @@ class AnswersController extends Controller
       return back()->with('success', "Your answer was submitted");
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Answer  $answer
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Answer $answer)
+  /**
+   * Show the form for editing the specified resource.
+   *
+   * @param Question $question
+   * @param  \App\Answer $answer
+   * @return void
+   */
+    public function edit(Question $question, Answer $answer)
     {
         //
+      $this->authorize('update', $answer);
+
+      return view('answers._edit', compact('question', 'answer'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Answer  $answer
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Answer $answer)
+  /**
+   * Update the specified resource in storage.
+   *
+   * @param  \Illuminate\Http\Request $request
+   * @param Question $question
+   * @param  \App\Answer $answer
+   * @return void
+   */
+    public function update(Request $request, Question $question, Answer $answer)
     {
         //
+      $this->authorize('update', $answer);
+
+      $answer->update($request->validate([
+        'body' => 'required',
+      ]));
+
+      return redirect()->route('questions.show', $question->slug)->with('success', 'Answer was upadted');
+
+
     }
 
     /**

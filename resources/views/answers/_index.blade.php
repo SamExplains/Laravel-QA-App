@@ -33,18 +33,40 @@
             <div class="media-body">
               {!! $answer->body_html !!}
 
-              <div class="float-right">
-                <span class="text-muted">Answered {{ $answer->created_date }}</span>
-                <div class="media">
-                  <a href="{{ $answer->user->url }}" class="pr-2">
-                    <img src="{{ $answer->user->avatar }}" alt="">
-                  </a>
+              <div class="row">
+                <div class="col-4">
+                  <div class="ml-auto">
+                    @can ('update', $answer)
+                      <a href="{{ route('questions.answers.edit', [$question->id, $answer->id]) }}" class="btn btn-sm btn-outline-primary">Edit</a>
+                    @endcan
 
-                  <div class="media-body">
-                    <a href="{{ $answer->user->url }}">{{ $answer->user->name }}</a>
+                    @can ('delete', $answer)
+                      <form class="form-delete" action="{{route('questions.answers.destroy', [$question->id, $answer->id] )}}" method="post">
+                        @method('DELETE')
+                        @csrf {{--  Blade directive token--}}
+                        <button type="submit" class="btn btn-outline-danger btn-sm ml-1" onclick="return confirm('Are you sure?')">Delete</button>
+                      </form>
+                    @endcan
+
                   </div>
-
                 </div>
+
+                <div class="col-4"></div>
+
+                <div class="col-4">
+                  <span class="text-muted">Answered {{ $answer->created_date }}</span>
+                  <div class="media">
+                    <a href="{{ $answer->user->url }}" class="pr-2">
+                      <img src="{{ $answer->user->avatar }}" alt="">
+                    </a>
+
+                    <div class="media-body">
+                      <a href="{{ $answer->user->url }}">{{ $answer->user->name }}</a>
+                    </div>
+
+                  </div>
+                </div>
+
               </div>
 
             </div>
