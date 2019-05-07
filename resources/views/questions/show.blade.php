@@ -19,15 +19,15 @@
 
                     <div class="d-flex flex-column vote-controls">
                       <a title="This question is useful" class="vote-up">
-                        <i class="fa fa-caret-up" aria-hidden="true"></i>
+                        <i class="fa fa-caret-up"></i>
                       </a>
                       <span class="votes-count">1230</span>
                       <a title="This question was terrible" class="vote-down off">
-                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                        <i class="fa fa-caret-down"></i>
                       </a>
-                      <a title="Clickto mark as favorite question (Click again to undo)" class="favorite">
-                        Favorite
-                        <i class="fa fa-star" aria-hidden="true"></i>
+                      <a title="Clickto mark as favorite question (Click again to undo)" class="favorite mt-2 favorited">
+                        <i class="fa fa-star"></i>
+                        <span class="favorites-count">123</span>
                       </a>
 
                     </div>
@@ -67,6 +67,22 @@
                 @foreach($question->answers as $answer)
 
                   <div class="media">
+
+                    <div class="d-flex flex-column vote-controls">
+                      <a title="This answer is useful" class="vote-up">
+                        <i class="fa fa-caret-up"></i>
+                      </a>
+                      <span class="votes-count">1230</span>
+                      <a title="This answer was terrible" class="vote-down off">
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                      <a title="Mark this answer as best answer" class="vote-accepted mt-2">
+                        <i class="fa fa-check"></i>
+                        <span class="favorites-count">123</span>
+                      </a>
+
+                    </div>
+
                     <div class="media-body">
                       {!! $answer->body_html !!}
 
