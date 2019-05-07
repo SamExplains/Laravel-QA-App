@@ -20,5 +20,9 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::resource('questions', 'QuestionsController')->except('show');
+
+//Route::post('/questions/{question}/answers', 'AnswersController@store')->name('answers.store');
+Route::resource('questions.answers', 'AnswersController')->except(['index', 'create', 'show']);
+
 /* Gets question by SLUG or title: Ex Day-One-Que for better SEO */
 Route::get('/questions/{slug}', 'QuestionsController@show')->name('questions.show');
