@@ -4,7 +4,7 @@
     <list default="true" id="bfd607ff-b7bf-43e2-ac4b-aaa10c112554" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AnswersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AnswersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,14 +38,14 @@
         <counts>
           <entry key="env" value="2" />
           <entry key="js" value="2" />
-          <entry key="php" value="114" />
+          <entry key="php" value="115" />
           <entry key="scss" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="2" />
-          <entry key="Blade" value="42" />
+          <entry key="Blade" value="43" />
           <entry key="JavaScript" value="2" />
           <entry key="PHP" value="72" />
           <entry key="SCSS" value="5" />
@@ -55,16 +55,16 @@
         <counts>
           <entry key="env" value="43" />
           <entry key="js" value="41" />
-          <entry key="php" value="8120" />
+          <entry key="php" value="8397" />
           <entry key="scss" value="625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="43" />
-          <entry key="Blade" value="3715" />
+          <entry key="Blade" value="3734" />
           <entry key="JavaScript" value="41" />
-          <entry key="PHP" value="4405" />
+          <entry key="PHP" value="4663" />
           <entry key="SCSS" value="625" />
         </counts>
       </usages-collector>
@@ -84,11 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Answer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1043">
-              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="449">
+              <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/answers/_index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1129">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -145,10 +154,10 @@
         <option value="$PROJECT_DIR$/resources/views/answers/_create.blade.php" />
         <option value="$PROJECT_DIR$/app/Policies/AnswerPolicy.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/answers/_index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/answers/_edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AnswersController.php" />
         <option value="$PROJECT_DIR$/app/Answer.php" />
+        <option value="$PROJECT_DIR$/resources/views/answers/_index.blade.php" />
       </list>
     </option>
   </component>
@@ -414,7 +423,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="Answer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Answer.php&#10;AnswerContr&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/AnswersController.php&#10;AuthSer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Providers/AuthServiceProvider.php&#10;AnswerPo&#9;null&#9;null&#10;answers/_&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/answers/_index.blade.php&#10;question/index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;AnswerCon&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/AnswersController.php&#10;web.php&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/routes/web.php&#10;app.scss&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/sass/app.scss&#10;RouteSer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Providers/RouteServiceProvider.php&#10;User&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/User.php&#10;Question&#9;null&#9;null&#10;show.blade&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;show.bl&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;QuestionFac&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/factories/QuestionFactory.php&#10;Questionpo&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Policies/QuestionPolicy.php&#10;index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;QuestionPo&#9;null&#9;null&#10;rout&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="_index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/answers/_index.blade.php&#10;Answer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Answer.php&#10;AnswerContr&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/AnswersController.php&#10;AuthSer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Providers/AuthServiceProvider.php&#10;AnswerPo&#9;null&#9;null&#10;answers/_&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/answers/_index.blade.php&#10;question/index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;AnswerCon&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/AnswersController.php&#10;web.php&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/routes/web.php&#10;app.scss&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/sass/app.scss&#10;RouteSer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Providers/RouteServiceProvider.php&#10;User&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/User.php&#10;Question&#9;null&#9;null&#10;show.blade&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;show.bl&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;QuestionFac&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/factories/QuestionFactory.php&#10;Questionpo&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Policies/QuestionPolicy.php&#10;index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;QuestionPo&#9;null&#9;null&#10;rout&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -493,12 +502,12 @@
       <workItem from="1557250966294" duration="5337000" />
       <workItem from="1557266611182" duration="3704000" />
       <workItem from="1557443118050" duration="19000" />
-      <workItem from="1557631101879" duration="582000" />
+      <workItem from="1557631101879" duration="1560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57612000" />
+    <option name="totallyTimeSpent" value="58590000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,13 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/answers/_index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AnswersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="955">
@@ -843,8 +845,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Answer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1043">
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="449">
+          <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/answers/_index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1129">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

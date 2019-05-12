@@ -23,9 +23,9 @@
               <a title="This answer was terrible" class="vote-down off">
                 <i class="fa fa-caret-down"></i>
               </a>
-              <a title="Mark this answer as best answer" class="vote-accepted mt-2">
+              <a title="Mark this answer as best answer" class="{{ $answer->status }} mt-2">
                 <i class="fa fa-check"></i>
-                <span class="favorites-count">123</span>
+                <span class="favorites-count"></span>
               </a>
 
             </div>
