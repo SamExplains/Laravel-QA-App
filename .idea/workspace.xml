@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="bfd607ff-b7bf-43e2-ac4b-aaa10c112554" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/questions/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/questions/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Answer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Answer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/AnswerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/AnswerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/VotablesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/VotablesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/answers/_index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,16 +62,16 @@
         <counts>
           <entry key="env" value="2" />
           <entry key="js" value="2" />
-          <entry key="php" value="156" />
+          <entry key="php" value="161" />
           <entry key="scss" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key=".env file" value="2" />
-          <entry key="Blade" value="50" />
+          <entry key="Blade" value="51" />
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="106" />
+          <entry key="PHP" value="110" />
           <entry key="SCSS" value="5" />
         </counts>
       </usages-collector>
@@ -74,16 +79,16 @@
         <counts>
           <entry key="env" value="43" />
           <entry key="js" value="41" />
-          <entry key="php" value="12358" />
+          <entry key="php" value="12711" />
           <entry key="scss" value="625" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="43" />
-          <entry key="Blade" value="4687" />
+          <entry key="Blade" value="4711" />
           <entry key="JavaScript" value="41" />
-          <entry key="PHP" value="7671" />
+          <entry key="PHP" value="8000" />
           <entry key="SCSS" value="625" />
         </counts>
       </usages-collector>
@@ -94,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+            <state relative-caret-position="1190">
+              <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -103,8 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Question.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1817">
-              <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
+            <state relative-caret-position="1129">
+              <caret line="78" column="49" lean-forward="true" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Answer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1217">
+              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -121,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1146">
-              <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="957">
+              <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
               <folding>
                 <element signature="e#1242#1263#0#HTML" expanded="true" />
                 <element signature="e#2025#2046#0#HTML" expanded="true" />
@@ -135,10 +149,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/answers/_index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1067">
+              <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/VotablesTableSeeder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+              <folding>
+                <element signature="e#7#38#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/factories/AnswerFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state relative-caret-position="962">
+              <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VoteAnswerController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,6 +220,7 @@
       <find>accept</find>
       <find>favorites</find>
       <find>vote-up</find>
+      <find>$voteQuestions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,7 +244,6 @@
         <option value="$PROJECT_DIR$/app/Policies/QuestionPolicy.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_06_021231_rename_answers_in_questions_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/QuestionsController.php" />
-        <option value="$PROJECT_DIR$/database/factories/AnswerFactory.php" />
         <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/js/fontawesome.js" />
         <option value="$PROJECT_DIR$/resources/js/app.js" />
@@ -199,20 +260,22 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_05_23_054806_create_favorites_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/UsersQuestionsAnswersTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/FavoritesTableSeeder.php" />
-        <option value="$PROJECT_DIR$/resources/views/answers/_index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_25_032047_create_votables_table.php" />
-        <option value="$PROJECT_DIR$/app/Answer.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_05_25_033123_rename_votes_on_question_table.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
-        <option value="$PROJECT_DIR$/app/Question.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/VotablesTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/QuestionFactory.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/VoteQuestionController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" />
         <option value="$PROJECT_DIR$/resources/views/questions/show.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/VoteAnswerController.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/app/Question.php" />
+        <option value="$PROJECT_DIR$/app/Answer.php" />
+        <option value="$PROJECT_DIR$/resources/views/answers/_index.blade.php" />
+        <option value="$PROJECT_DIR$/database/seeds/VotablesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/factories/AnswerFactory.php" />
       </list>
     </option>
   </component>
@@ -331,7 +394,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1919" />
-    <option name="height" value="1480" />
+    <option name="height" value="1734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -479,7 +542,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="SearchEverywhereHistoryKey" value="VoteQues&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/VoteQuestionController.php&#10;web.p&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/routes/web.php&#10;_index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/answers/_index.blade.php&#10;web.php&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/routes/web.php&#10;show.blade&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;show&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;VoteQuestionContr&#9;null&#9;null&#10;QuestionFac&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/factories/QuestionFactory.php&#10;Database&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/seeds/DatabaseSeeder.php&#10;VotablesTa&#9;null&#9;null&#10;rename&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/migrations/2019_05_06_021231_rename_answers_in_questions_table.php&#10;index.php&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;QuestionFa&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/factories/QuestionFactory.php&#10;Answer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Answer.php&#10;Question&#9;null&#9;null&#10;User&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/User.php&#10;create_votables&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/migrations/2019_05_25_032047_create_votables_table.php&#10;QuestionContro&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/QuestionsController.php&#10;AnswerContr&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/AcceptAnswerController.php&#10;QuestionContr&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/QuestionsController.php&#10;FavoritesT&#9;null&#9;null&#10;DatabaseSee&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/seeds/DatabaseSeeder.php&#10;UsersAn&#9;null&#9;null&#10;Questio&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Question.php&#10;create_fav&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/migrations/2019_05_23_054806_create_favorites_table.php&#10;Answer.ph&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Answer.php&#10;AnswerPolic&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Policies/AnswerPolicy.php&#10;welcome&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/welcome.blade.php&#10;AuthSer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Providers/AuthServiceProvider.php&#10;AnswerPo&#9;null&#9;null&#10;answers/_&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/answers/_index.blade.php&#10;question/index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;AnswerCon&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/AnswersController.php&#10;app.scss&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/sass/app.scss&#10;RouteSer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Providers/RouteServiceProvider.php&#10;show.bl&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;Questionpo&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Policies/QuestionPolicy.php&#10;index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;QuestionPo&#9;null&#9;null&#10;rout&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="answerFac&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/factories/AnswerFactory.php&#10;votable&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/seeds/VotablesTableSeeder.php&#10;_index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/answers/_index.blade.php&#10;Answer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Answer.php&#10;Question&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Question.php&#10;User&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/User.php&#10;VoteQues&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/VoteQuestionController.php&#10;web.p&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/routes/web.php&#10;web.php&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/routes/web.php&#10;show.blade&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;show&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;VoteQuestionContr&#9;null&#9;null&#10;QuestionFac&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/factories/QuestionFactory.php&#10;Database&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/seeds/DatabaseSeeder.php&#10;VotablesTa&#9;null&#9;null&#10;rename&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/migrations/2019_05_06_021231_rename_answers_in_questions_table.php&#10;index.php&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;QuestionFa&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/factories/QuestionFactory.php&#10;create_votables&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/migrations/2019_05_25_032047_create_votables_table.php&#10;QuestionContro&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/QuestionsController.php&#10;AnswerContr&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/AcceptAnswerController.php&#10;QuestionContr&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/QuestionsController.php&#10;FavoritesT&#9;null&#9;null&#10;DatabaseSee&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/seeds/DatabaseSeeder.php&#10;UsersAn&#9;null&#9;null&#10;Questio&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Question.php&#10;create_fav&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/database/migrations/2019_05_23_054806_create_favorites_table.php&#10;Answer.ph&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Answer.php&#10;AnswerPolic&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Policies/AnswerPolicy.php&#10;welcome&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/welcome.blade.php&#10;AuthSer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Providers/AuthServiceProvider.php&#10;AnswerPo&#9;null&#9;null&#10;answers/_&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/answers/_index.blade.php&#10;question/index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;AnswerCon&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Http/Controllers/AnswersController.php&#10;app.scss&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/sass/app.scss&#10;RouteSer&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Providers/RouteServiceProvider.php&#10;show.bl&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/show.blade.php&#10;Questionpo&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/app/Policies/QuestionPolicy.php&#10;index&#9;FILE&#9;file:///Users/Sam/Documents/Github Local/Fullstack Web Development With Laravel and Vue.js - Udemy/laravel-qa-app/resources/views/questions/index.blade.php&#10;QuestionPo&#9;null&#9;null&#10;rout&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.env" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -584,12 +647,12 @@
       <workItem from="1558764135646" duration="2402000" />
       <workItem from="1558841637674" duration="1657000" />
       <workItem from="1558929504786" duration="902000" />
-      <workItem from="1558990390443" duration="1579000" />
+      <workItem from="1558990390443" duration="3677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88711000" />
+    <option name="totallyTimeSpent" value="90809000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,15 +664,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1919" height="1480" extended-state="0" />
+    <frame x="0" y="23" width="1919" height="1734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13765399" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13765399" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32973316" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -619,7 +682,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50361717" side_tool="true" weight="0.3290735" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49638286" weight="0.3242424" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49638286" weight="0.32401526" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -633,13 +696,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/vendor/pagination/simple-default.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -750,13 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="909">
           <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/AnswerFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -900,13 +949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Answer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_25_033123_rename_votes_on_question_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -928,31 +970,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/VotablesTableSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/answers/_index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Question.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1817">
-          <caret line="79" column="3" selection-start-line="79" selection-start-column="3" selection-end-line="79" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -966,28 +987,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="75" column="3" selection-start-line="75" selection-start-column="3" selection-end-line="75" selection-end-column="3" />
+        <state relative-caret-position="962">
+          <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VoteAnswerController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+        <state relative-caret-position="660">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="91" column="3" lean-forward="true" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Question.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1129">
+          <caret line="78" column="49" lean-forward="true" selection-start-line="78" selection-start-column="49" selection-end-line="78" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Answer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1217">
+          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/questions/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
-          <caret line="58" column="29" lean-forward="true" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        <state relative-caret-position="957">
+          <caret line="43" column="29" lean-forward="true" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
             <element signature="e#1242#1263#0#HTML" expanded="true" />
             <element signature="e#2025#2046#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/answers/_index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1067">
+          <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/VotablesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/AnswerFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
